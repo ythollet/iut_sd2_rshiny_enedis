@@ -1,0 +1,26 @@
+---
+title: "Mon Cours RMarkdown"
+author: "Nom de l'auteur"
+output: word_document
+date: "2024-09-20"
+---
+
+```{r}
+# Ceci est un chunk de code R
+summary(iris)
+```
+
+# Titre 1
+
+## Sous-titre 2
+
+*Texte en italique* **Texte en gras**
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, echo=FALSE}
+library(knitr)
+kable(head(iris), caption = "Tableau des premières lignes du jeu de données iris")
+```
