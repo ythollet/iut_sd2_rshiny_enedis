@@ -1,6 +1,6 @@
 # iut_sd2_rshiny_enedis
 
-Ce repository contient les fichiers suivants:
+Le dossier "application.zip" contient:
 
 - app.R : l'application R-shiny contenant l'iu et le server
 - api.R : Le script R qui requête l'API de l'ADEME et crée un DataFrame avec les données correspondantes
