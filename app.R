@@ -23,10 +23,6 @@ library(shinyauthr)
 
 options(repos = c(CRAN = "https://cran.rstudio.com"))
 
-my_dir = "C:/Users/delbo/OneDrive/Documents/PROJET SHINY"
-
-setwd(my_dir)
-
 
 # Vérifie si le DataFrame est déja dans l'environnement, si il ne l'est pas, on le charge
 if (!is.data.frame(df)) { 
