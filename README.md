@@ -7,5 +7,5 @@
   - df.csv : Le dataframe exporté par le script "api.R" suite à la requete de l'API
 
   2.La documentation technique de l'application
-  3.La documentation fonctionelle de l'application
+  3.La documentation fonctionelle de l'application (contient les mots de passes et identifiants nécessaire à la connexion à l'app)
   
